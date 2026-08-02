@@ -1,8 +1,30 @@
 aid: swish
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swish.png
 name: Swish
-description: 'Swish is a company surfaced as a portfolio company of accel, bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Swish (operated by Munchmart Technologies Private Limited) is a Bengaluru-based
+  quick-commerce food delivery startup founded in 2024 that promises meals at your
+  door in ten minutes. It runs a full-stack, vertically integrated model — owning
+  its neighbourhood cloud kitchens ("delight centres"), sourcing and supply chain,
+  proprietary ordering/routing technology, and its own last-mile delivery fleet —
+  operating dense hyperlocal clusters of roughly 1.5–2 km. The company focuses on
+  frequent, lower-ticket occasions such as breakfast, snacks, and late-night meals,
+  and reports around 20,000 orders a day across Bengaluru micro-markets. Swish raised
+  a $38M Series B led by Hara Global and Bain Capital Ventures with participation from
+  Accel, valuing it at $139M post-money and bringing total funding to about $54M. Swish
+  is a consumer mobile-app business and does not publish a public developer API,
+  developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/swish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Food Delivery
+- Quick Commerce
+- Cloud Kitchens
+- Last-Mile Logistics
+- Bengaluru
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +53,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.justswish.in
+  url: https://www.justswish.in
+- type: PrivacyPolicy
+  url: https://justswish.in/privacy-policy
+- type: TermsOfService
+  url: https://justswish.in/terms-of-service
+- type: Support
+  url: mailto:support@justswish.in
+- type: DomainSecurity
+  url: security/swish-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
